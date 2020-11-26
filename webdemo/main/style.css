@@ -1,0 +1,1161 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#lienhe {
+    height: 30px;
+    width: 500px;
+    margin-left: 1045px;
+}
+
+#lienhe p {
+    margin-left: 5px;
+    margin-top: 7px;
+    float: left;
+    width: 150px;
+}
+
+#lienhe img {
+    float: left;
+    width: 20px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.header {
+    height: 120px;
+    /*width:95%;*/
+
+    /*margin-left:2.5%;*/
+}
+
+#logo {
+    height: 120px;
+    width: 220px;
+    margin-left: 50px;
+    float: left;
+}
+
+#logo img {
+    height: 98%;
+    width: 96%;
+    margin-top: -13px;
+}
+
+#banner {
+    float: right;
+    width: 800px;
+    height: 100%;
+
+    margin-right: 245px;
+}
+
+#banner p {
+
+    color: blue;
+    font-family: League Gothic;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+    background-color: #1f568b;
+}
+
+#menu ul.aaa {
+    margin-left: 7%;
+
+}
+
+#menu ul.aaa li a {
+    display: block;
+
+
+}
+
+#menu ul.aaa li {
+    list-style: none;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    width: 110px;
+    text-align: center;
+    background-color: #1f568b;
+    position: relative;
+}
+
+#menu ul.sub li {
+    list-style: none;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    width: 171px;
+    text-align: center;
+    background-color: #1f568b;
+    position: relative;
+}
+
+#menu ul.aaa li>a:hover {
+    color: black;
+    background: #f1f1f1;
+}
+
+/*
+#menu ul.aaa li :hover{
+	color:black;
+	background:#f1f1f1;
+		display:block;
+}*/
+#menu ul.aaa li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white;
+}
+
+ul.aaa li>.sub {
+    position: absolute;
+    background: #1f568b;
+    display: none;
+    border-bottom: 1px solid white;
+}
+
+ul.aaa li:hover>.sub {
+    display: block;
+    z-index: 30;
+}
+
+ul.aaa li .sub {
+    top: 0;
+    left: 100px;
+
+}
+
+ul.aaa>li>.sub {
+    top: 100%;
+    left: 0;
+}
+
+ul .sub li {
+    border-bottom: 1px solid white;
+}
+
+#searchform .searchform-wrapper {
+    height: 31px;
+    position: relative;
+    width: 100%;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    border: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+#searchform .searchform-wrapper #s {
+    color: #aaaaaa;
+    font-size: 13px;
+    height: 19px;
+    padding: 5px 0 5px 3%;
+    position: absolute;
+    left: 876px;
+    top: 9px;
+    width: 16%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#searchform .searchform-wrapper #s {
+    border-radius: 15px;
+}
+
+user agent stylesheet input:not([type]),
+input[type="email"i],
+input[type="number"i],
+input[type="password"i],
+input[type="tel"i],
+input[type="url"i],
+input[type="text"i] {
+    padding: 1px 0px;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+input[type="email"],
+input[type="url"],
+textarea,
+select {
+    background-color: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    color: #333333;
+    line-height: normal;
+    padding: 5px;
+    width: 50%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*hover vao tài liệu mới tài liệu nổi bật*/
+.tailieumoi .xam {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    /* background: #8080806b; */
+}
+
+.tailieumoi:hover .xam {
+    cursor: pointer;
+}
+
+.tailieumoi:hover .xam {
+    background: #827e7e5c !important;
+}
+
+user agent stylesheet input:not([type]),
+input[type="email"i],
+input[type="number"i],
+input[type="password"i],
+input[type="tel"i],
+input[type="url"i],
+input[type="text"i] {
+    padding: 1px 0px;
+}
+
+user agent stylesheet input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+user agent stylesheet input,
+textarea,
+select,
+button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+user agent stylesheet input,
+textarea,
+select,
+button,
+meter,
+progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+#searchform .searchform-wrapper .send {
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: ElegantIcons !important;
+    font-size: 15px;
+    height: 31px;
+    line-height: 31px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 216px;
+    top: 9px;
+    text-align: center;
+    width: 31px;
+    z-index: 20;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+    -ms-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+}
+
+#searchform .searchform-wrapper .send {
+    background: url(images/searchicon_png.png) no-repeat center;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+
+user agent stylesheet input[type="button"i],
+input[type="submit"i],
+input[type="reset"i] {
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
+
+user agent stylesheet input[type="button"i],
+input[type="submit"i],
+input[type="reset"i],
+input[type="file"i]::-webkit-file-upload-button,
+button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+user agent stylesheet input[type="button"i],
+input[type="submit"i],
+input[type="reset"i],
+input[type="file"i]::-webkit-file-upload-button,
+button {
+    padding: 1px 6px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #6596dd;
+    border: none;
+    border-radius: 0 !important;
+    box-shadow: none;
+    color: white !important;
+    cursor: pointer;
+    font-size: 15px;
+    height: auto;
+    margin-top: 5px;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+    -ms-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+user agent stylesheet input[type="button"i],
+input[type="submit"i],
+input[type="reset"i],
+input[type="file"i]::-webkit-file-upload-button,
+button {
+    padding: 1px 6px;
+}
+
+user agent stylesheet input[type="button"i],
+input[type="submit"i],
+input[type="reset"i],
+input[type="file"i]::-webkit-file-upload-button,
+button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: out;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+user agent stylesheet input[type="button"i],
+input[type="submit"i],
+input[type="reset"i] {
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
+
+user agent stylesheet input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+user agent stylesheet input,
+textarea,
+select,
+button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+user agent stylesheet input,
+textarea,
+select,
+button,
+meter,
+progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+div.main {
+    width: 95%;
+    height: 900px;
+    background-color: #F7F1F1;
+    margin-left: 2.5%;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #74a1fb;
+    color: white;
+}
+
+.leftft {
+    float: left;
+    margin-left: 15px;
+    margin-top: 45px;
+    width: 28%;
+}
+
+.rightft {
+    float: right;
+    margin-right: 15px;
+    margin-top: 94px;
+    width: 40%;
+}
+
+
+.footer-bar {
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background: #111;
+    border-top: 1px solid #E62600;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-bar .article-wrapper {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #888;
+    float: left;
+    margin-left: 10%;
+}
+
+.footer-bar .article-link a,
+.footer-bar .article-link a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-link a,
+.site-link a:visited {
+    color: #888;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    float: right;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.site-link a:hover {
+    color: #E62600;
+}
+
+/*css xin chào, admin*/
+.xinchao {
+    float: right;
+    margin-right: 50px;
+    color: #58e600;
+    margin-top: -18px;
+    font-size: 20px;
+}
+
+/*css hiển thị tài liệu mới*/
+.tailieumoi {
+    width: 220px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.tailieumoi a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.tailieumoi a p:hover {
+    color: lightblue;
+}
+
+.boc {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*css icon& chữ tài liệu mới và tài liệu nổi bật*/
+.tieude {
+    width: 450px;
+    height: 50px;
+}
+
+.icontieude {
+    float: left;
+    margin-right: 10px;
+    height: 45px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.icontieude img {
+    height: 45px;
+    width: 45px;
+}
+
+.tieude p {
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    padding-top: 5px;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+/*css bình luận*/
+.binhluan {
+    width: 645px;
+    height: 400px;
+    overflow: auto;
+    background: white;
+}
+
+/*css dowload*/
+.tailieu {
+    display: block;
+    height: 250px;
+    width: 700px;
+}
+
+img #anhdown {
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+
+}
+
+img#anhdown {
+    height: 30px;
+    border-radius: 50px;
+}
+
+.tailieu p {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+.tailieumoi p {
+    background: lightblue;
+    height: 30px;
+    width: 230px;
+    margin-left: 0px;
+    padding-top: 10px;
+}
+
+.tailieu p:hover {
+    color: lightblue;
+}
+
+.tailieu {
+    font-size: 20px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    display: block;
+    height: 316px;
+    width: 642px;
+    padding-top: 20px;
+}
+
+.tailieu h1 {
+    font-size: 30px;
+    padding-left: 80px;
+    padding-left: 243px;
+    color: blue;
+}
+
+img#anhdaidien {
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+
+.borderanh {
+    width: 203px;
+    height: 253px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid lightblue;
+}
+
+p#tenfile {
+    margin-left: 280px;
+    margin-top: -29px;
+    color: #1075f3;
+}
+
+p#tenfile:hover {
+    color: #1075f3;
+}
+
+/*hết css download*/
+/*hover ảnh tài liệu mới*/
+.tailieumoi:hover img {
+    opacity: 0.5;
+
+}
+
+.tailieumoi:hover p {
+    transform: translateY(-40px);
+    color: white;
+    background: gray;
+
+}
+
+/*css lại phần slider và quảng cáo---------------------------------------------------*/
+div.slider {
+    height: 480px;
+
+}
+
+.leftqc img {
+    float: left;
+    height: 521px;
+    width: 184.015617px;
+}
+
+div.jssor_1 {
+    position: relative;
+    margin: 0px auto;
+    top: 0px;
+    left: 0px;
+    width: 980px;
+    height: 480px;
+    overflow: hidden;
+    visibility: visible;
+    z-index: 20;
+    float: left;
+
+}
+
+element.style {
+    position: relative;
+    margin: 0px auto;
+    left: -98px;
+    top: 0px;
+    width: 980px;
+    height: 480px;
+    overflow: hidden;
+    visibility: visible;
+    z-index: 20;
+}
+
+.rightqc img {
+    float: right;
+    height: 520px;
+    width: 185px;
+    margin-top: -18px;
+}
+
+/*hết phần slider và quảng cáo---------------------------------------------------*/
+
+.tailieulienquan {
+    width: 450px;
+    height: 600px;
+    float: right;
+    margin-top: -300px;
+}
+
+.tailieulienquan img {
+    width: 185px;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.tailieulienquan p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.motfilelienquan {
+    height: 125px;
+    width: 100%;
+}
+
+.motfilelienquan p,
+a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p#tenfilelienquan {
+    /* padding-left: 139px; */
+    padding-top: 98px;
+    /* text-decoration: none; */
+    color: black;
+}
+
+hr#hrlienquan {
+    width: 420px;
+}
+
+.motfilelienquan:hover img {
+    opacity: 0.5;
+
+}
+
+.motfilelienquan:hover p#tenfilelienquan {
+    /* transform: translateY(-50px); */
+    color: #58e600;
+
+}
+
+/*------------------------css-upload----------------*/
+.form-upload {
+    height: 300px;
+    width: 600px;
+    margin-left: 316px;
+    margin-top: 150px;
+}
+
+h2.form-signin-heading {
+    /* margin-left: 35px; */
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+
+}
+
+.formthongtin {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+button#up {
+    margin-left: 216px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    background: #1f568b;
+    float: left;
+}
+
+button#huy {
+    margin-left: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    background: #1f568b;
+    float: left;
+}
+
+.content1 {
+    width: 100%;
+    height: 900px;
+}
+
+.main1 {
+    width: 800px;
+    height: 100%;
+    background-color: #F7F1F1;
+    margin-left: 2.5%;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    float: left;
+    overflow: auto;
+}
+
+.danhmuckhac {
+    float: right;
+    width: 400px;
+    height: 25%;
+    margin-top: -900px;
+    margin-right: -10px;
+}
+
+.quangcao {
+    height: 50%;
+    width: 450px;
+    float: right;
+    margin-top: -680px;
+}
+
+.quangcao img {
+    width: 90%;
+    margin-top: 25px;
+}
+
+.dmkhac {
+    font-size: 30px;
+
+}
+
+.danhmuc {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: blue;
+}
+
+.motfiledanhmuc {
+    height: 248px;
+}
+
+.anhdanhmuc,
+.anhdanhmuc img {
+    width: 310px;
+    height: 190px;
+    margin-top: 24px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 2px solid darkgrey;
+    background: #BABABA;
+}
+
+.ngaydang {
+    margin-top: 22px;
+    /* font-size: 20px; */
+}
+
+img#icondanhmuc {
+    width: 30px;
+    height: 100%;
+    float: left;
+    margin-top: -6px;
+}
+
+.ngaydang p {
+    margin-left: 390px;
+}
+
+#ten {
+    font-size: 30px;
+    margin-left: 390px;
+}
+
+.dmkhac {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div#cacdanhmuc {
+    padding-left: 30px;
+}
+
+div#kocotailieu {
+    font-size: 18px;
+    margin: 20px 40px;
+}
+
+.select {
+    width: 300px;
+    border-radius: 5px;
+    background: white;
+}
+
+table#gtthongke {
+    width: 590px;
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: 337px;
+    margin-top: 28px;
+    background: #ccf9e8;
+
+}
+
+table#gtthongke1 {
+    width: 950px;
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: 163px;
+    margin-top: 28px;
+    background: #ccf9e8;
+
+}
+
+tr,
+.td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table#formthongke {
+    text-align: center;
+    margin-left: 425px;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+.mucquantri {
+    margin: 20px 30px;
+}
+
+table#gtquantri {
+    margin-left: 230px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 2px;
+    width: 830px;
+    height: 120px;
+    background: lavender;
+}
+
+a.aqt {
+    color: black;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+a.set:hover,
+a.xoa:hover {
+    color: red;
+    font-weight: 350;
+    text-decoration: underline;
+}
+
+input#themdm {
+    margin-left: 573px;
+    margin-top: 25px;
+    border-radius: 10px;
+    width: 132px;
+    height: 40px;
+    color: red;
+    border-radius: 10px;
+    background: #0c9ee4;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #8eb2de;
+}
+
+input#themdm:hover {
+    border-radius: 10px;
+    color: red;
+    background: gray;
+}
+
+table#themdm {
+    margin-left: 408px;
+    margin-top: 50px;
+}
+
+input#nuttdm {
+    margin-left: 575px;
+    height: 30px;
+    width: 100px;
+    /* border-radius: 154px; */
+    background-color: #3889ec;
+    cursor: pointer;
+    border: 2px solid #8eb2de;
+}
+
+.tieudetdm {
+    margin-left: 509px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+
+form#formcn {
+    margin-left: 460px;
+    margin-top: 30px;
+    /* text-align: center; */
+    /* border: 1px solid; */
+    height: 200px;
+    width: 400px;
+}
+
+#menud ul.aaab {
+    width: 80%;
+    background: green;
+    text-align: center;
+}
+
+#menud li {
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+    border-bottom: 1px solid white;
+    clear: both;
+
+}
+
+#menud li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menud li a:hover {
+    background: lightblue;
+    color: red;
+    display: block;
+}
